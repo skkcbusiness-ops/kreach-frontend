@@ -427,7 +427,7 @@ select option{background:var(--surface);}
 // 배포 후 Railway URL로 교체
 const API = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
   ? 'http://localhost:8000'
-  : 'https://YOUR-RAILWAY-APP.railway.app';  // ← 배포 후 교체
+  : 'kreach-backend-production.up.railway.app';  // ← 배포 후 교체
 
 // ── State ─────────────────────────────────────────────────────
 let TOKEN = localStorage.getItem('kr_token') || '';
